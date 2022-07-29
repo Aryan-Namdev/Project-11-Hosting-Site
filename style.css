@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@600&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+}
+
+:root{
+    --color: #3BB0FF;
+}
+
+body{
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 10vh;
+    padding: 5% 7% 3%;
+    /* background-color: red;
+     */
+}
+
+.list-items{
+    font-size: .9rem;
+    color:rgb(99, 99, 99)
+}
+
+.list-container{
+    display: flex;
+    list-style: none;
+    gap: 1.9em;
+    align-items: center;
+}
+
+.register-now{
+    padding: .3em 1.5em;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3BB0FF;
+    border: #3BB0FF solid 1.5px;
+}
+
+.face{
+    height: 80vh;
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: #111; */
+    margin-bottom: 7em;
+    padding: 3% 7%;
+    gap: 3em;
+    margin-top: 2em;
+}
+
+
+.content-heading{
+    font-size: 2.5rem;
+}
+
+.content-paragraph{
+    color: rgb(156, 156, 156);
+    font-size: .8rem;
+    line-height: 1.8rem;
+    margin: .5em 0 2em;
+}
+
+.content-button{
+    padding: .5em 1.5em;
+    color: white;
+    background-image: linear-gradient(to bottom,#58bcff, #0372c1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00395f54;
+    display: inline-block;
+    width: fit-content;
+}
+
+.content-image{
+    height: 90%;
+}
+
+.content-thor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    /* background-color: red; */
+    margin: 2em 0 4em;
+    padding: 3% 7%;
+}
+
+.content-paragraph-2{
+    width: 55%;
+    margin-left: 2em;
+    vertical-align: middle;
+}
+
+.grid-1-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,30%));
+    margin: 0 auto;
+    column-gap: 2.9em;
+    row-gap: .5em;
+    padding: 3% 7%;
+}
+
+.grid-img{
+    height: 16%;
+    margin-bottom: 1.5em;
+}
+
+.grid-paragraph{
+    font-size: .8rem;
+    line-height: 1.6rem;
+    margin-top: 1.4em;
+    color: rgb(156, 156, 156);
+}
+
+.grid-2-container{
+    height: 120vh;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:var(--color);
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.grid-2-heading{
+    color: white;
+    text-align: center;
+    margin: .5em 0 2em;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit,minmax(280px,28%));
+    gap: 2em;
+    width: 100%;
+    justify-content: center;
+}
+
+.grid-item{
+    list-style: none;
+    background-color: #fff;
+    text-align: left;
+    padding: 30px;
+    /* display: flex; */
+    border-radius: 10PX;
+}
+
+.grid-item h3{
+    letter-spacing: 1px;
+    margin-bottom: .5em;
+}
+
+.grid-item p{
+    color: rgb(156, 156, 156);
+    font-size: .7rem;
+    margin-bottom: 2em;
+}
+
+.grid-item ul{
+    list-style: none;
+    font-size: .8rem;
+}
+.grid-item ul li{
+    padding: .5em 0;
+}
+
+.grid-item ul li::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f058";
+    color: green;
+    margin-right: .8em;
+}
+
+.grid-item h1{
+    margin-top: 2.1em;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+.grid-item h1 span{
+    color: rgb(156, 156, 156);
+    font-size: .9rem;
+}
+
+.cancel{
+    letter-spacing: .5px;
+    text-align: center;
+    /* width: 100%; */
+    font-size: .5rem;
+}
+
+.grid-item button{
+    background-color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 7px;
+    border: 2px #3BB0FF solid;
+    color: #3BB0FF;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.bgc-grey{
+    background-color: rgb(43, 43, 43);
+    height: 20%;
+    border-radius: 10px;
+}
+
+.grid-item-2{
+    padding: 0;
+    border-radius: 10px;
+
+}
+
+.grid-item-2  h3{
+    padding: 30px 30px 0 30px;
+    color: white;
+}
+
+.grid-item-2 p,ul,.pricing,.cancel{
+    padding: 0 30px 0 30px;
+}
+
+.grid-item-2 button{
+    color: #fff;
+}
+
+
+.grid-3-header{
+    text-align: center;
+    margin: 3.5em 0 1em;
+}
+
+.grid-3-para{
+    font-size: .8rem;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    /* display: inline-block; */
+    width: 60%;
+    margin: 0 auto;
+}
+.grid-3-paragraph{
+    font-size: .8rem;
+    color: rgb(99, 99, 99);
+    text-align: left;
+    /* display: inline-block; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.grid-3-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,45%));
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5em 3% 5em;
+}
+
+.grid-3-item{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin-right: 1.2em;
+}
+
+.grid-3-flex-2{
+    display: flex;
+    align-items: center;
+    margin: 1.3em 0 0 0;
+    
+}
+
+.company{
+    color: rgb(129, 129, 129);
+}
+
+.oce{
+    display: flex;
+    height: 55vh;
+    background-color: #3BB0FF;
+    background: linear-gradient(to bottom, #3BB0FF,#0083da);
+    padding: 3% 7%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.oce-text{
+    max-width: 60%;
+    /* background-color: #fff; */
+    color: white;
+}
+.oce-heading{
+    font-size:2rem;
+    margin-bottom: .5em;
+}
+.oce-para{
+    font-size: .7em;
+}
+
+.register-now-oce{
+    padding: .3em 1.5em;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: white solid 1.5px;
+}
+
+.para{
+    font-size: .8em;
+    color: rgb(129, 129, 129);
+}
+
+.footer{
+    display: flex;
+    padding: 2% 7% 3%;
+    justify-content: space-between;
+}
+.social-logos{
+    text-align: center;
+}
+.logos-png{
+    height: 35PX;
+}
+
+.footer-1{
+    width: 40%;
+}
+
+.footer-2-heading{
+    font-size: 1.2rem;
+    padding-bottom: 1em ;
+}
+
+.footer-2 li{
+    list-style-type: none;
+    padding-bottom: .5em;
+}
