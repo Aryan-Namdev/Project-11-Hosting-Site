@@ -282,6 +282,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    /* margin-left: 10em; */
 }
 
 .profile-img{
@@ -364,4 +365,71 @@ body{
 .footer-2 li{
     list-style-type: none;
     padding-bottom: .5em;
+}
+
+nav .fa-bars{
+    display: none;
+}
+
+
+@media screen and (min-width:414px) and (max-width:850px) {
+    .list-container{
+        display: none;
+    }
+
+    nav .fa-bars{
+        display: block;
+    }
+
+    .face,
+    .content-thor{
+        flex-direction: column;
+    }
+
+
+    .content-thor{
+        height: max-content;
+    }
+
+    *{
+        text-align: center;
+    }
+
+    .content-image{
+        display: none
+    }
+        
+    .footer-2,
+    .footer-3,
+    .footer-para{
+        display: none;
+    }
+
+    .oce{
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .oce-button{
+        margin-top: 2em;
+    }
+
+    .grid-2-container{
+        height: max-content;
+    }
+
+    .grid-item-2 p, ul {
+        margin-top: 4em;
+
+    }
+
+    .grid-3-container{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    
+
+
 }
